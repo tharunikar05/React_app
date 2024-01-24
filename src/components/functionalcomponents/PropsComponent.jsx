@@ -1,9 +1,13 @@
+import "../css/PropsComponent.css";
 function PropsComponent(props)
 {
+ // const styleAttrs={
+  //  backgroundColor:"pink"
+  //style={styleAttrs }
   return(
-    <div>
-       <h1> {props.name} <br></br>This is {props.course} class</h1>
-    </div>
+    <div > 
+        {props.name} <br></br>This is {props.course} class
+    </div>//color coding not use. //inline css
   )
 }
 export default PropsComponent;
